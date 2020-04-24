@@ -14,6 +14,7 @@ f2 = open('merge_file_2.txt')
 
 
 f3 = open('merged.txt', 'wb')
+
 #f3.writelines([bytearray(l) for l in f1.readlines()])
 #f3.writelines([bytearray(l) for l in f2.readlines()])
 
